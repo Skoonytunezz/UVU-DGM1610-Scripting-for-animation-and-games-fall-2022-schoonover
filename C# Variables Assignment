@@ -1,0 +1,53 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string firstName = "Brett";
+      string lastName = "Schoonover";
+      string fullName = firstName + " " + lastName;
+      Console.WriteLine(fullName);
+      
+      int age = 24;
+      Console.WriteLine(age);
+      
+      string firstGame = "Apex";
+      string lastGame = "Legends";
+      string gameName = firstGame + " " + lastGame;
+      Console.WriteLine(gameName);
+      
+      string apexRank = "Diamond";
+      int rankLevel = 4;
+      string apexStat = apexRank + " " + rankLevel;
+      Console.WriteLine(apexStat);
+      
+      float myNum = 3.14F;
+      Console.WriteLine(myNum);
+      
+      double myNumTwo = 3.253D;
+      Console.WriteLine(myNumTwo);
+      
+      char myLetter = 'W';
+      char lowerCase = 'w';
+      Console.WriteLine(myLetter);
+      
+      
+      Console.WriteLine(lowerCase);
+      
+      bool isClassCool = true;
+      bool isHomeworkFun = false;
+      Console.WriteLine(isClassCool);
+      Console.WriteLine(isHomeworkFun);
+      
+      bool isApexFun = true;
+      bool isCodingHard = false;
+      Console.WriteLine(isApexFun);
+      Console.WriteLine(isCodingHard);
+      
+      
+     }
+  }
+}

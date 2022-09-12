@@ -12,8 +12,8 @@ public class Conditions : MonoBehaviour
     int x = 90
     
 
-    string timer = "Timer"
-    string pauseButtion = "Pause"
+    string cloudCover = "Strom Clouds"
+    string lightColor = "Green"
 
 
 
@@ -38,9 +38,9 @@ public class Conditions : MonoBehaviour
             Console.WriteLine("Half Way there");
         }
 
-        if(time < 100)
+        if(cloudCover == "Storm Clouds")
         {
-            Console.WriteLine("Timer");
+            Console.WriteLine("Better stay inside");
         }
 
         if(time >= x)
@@ -48,9 +48,9 @@ public class Conditions : MonoBehaviour
             Console.WriteLine("10 more seconds")
         }
 
-        if(time != 100)
+        if(lightColor == Green)
         {
-            // play super dope music
+            Consol.WriteLine("GO!!")
         }
     }
 }

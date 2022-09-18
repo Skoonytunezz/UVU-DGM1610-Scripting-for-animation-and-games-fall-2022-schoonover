@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 350071482}
   - component: {fileID: 350071481}
   - component: {fileID: 350071480}
+  - component: {fileID: 350071484}
   m_Layer: 0
   m_Name: Blue_Baloon
   m_TagString: Untagged
@@ -222,6 +223,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &350071484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350071479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca85fa8eaaa815469c329b9a8ea7348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickToPop: 4
+  scaleToInrease: 0.3
 --- !u!1 &355034729
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +249,7 @@ GameObject:
   - component: {fileID: 355034732}
   - component: {fileID: 355034731}
   - component: {fileID: 355034730}
+  - component: {fileID: 355034734}
   m_Layer: 0
   m_Name: Green_Balloon
   m_TagString: Untagged
@@ -321,6 +337,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &355034734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355034729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca85fa8eaaa815469c329b9a8ea7348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickToPop: 8
+  scaleToInrease: 0.5
 --- !u!1 &688408879
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +555,7 @@ GameObject:
   - component: {fileID: 949745860}
   - component: {fileID: 949745859}
   - component: {fileID: 949745858}
+  - component: {fileID: 949745862}
   m_Layer: 0
   m_Name: Red_Balloon
   m_TagString: Untagged
@@ -612,6 +643,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &949745862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949745857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca85fa8eaaa815469c329b9a8ea7348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickToPop: 3
+  scaleToInrease: 0.1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1d6127cce939904498e69a91c9ea70e4
+  - enabled: 1
+    path: Assets/Scenes/ufo_defense_force.unity
+    guid: 4d10fabfbd28fce478465780631521da
   m_configObjects: {}
